@@ -80,9 +80,7 @@ namespace HelloWorld
                             GameCircle circle = (GameCircle)obj;
                             Value.Points += circle.Value; 
                         }
-                        
                         Objects.Remove(obj);
-                        Console.WriteLine(obj);
                     }
                 }
 
