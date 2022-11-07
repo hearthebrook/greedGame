@@ -1,7 +1,7 @@
 using Raylib_cs;
 
 
-namespace HelloWorld
+namespace Greed
 {
     class Score : GameObject{
         public int Points { get; set; }
