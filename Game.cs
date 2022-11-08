@@ -23,8 +23,7 @@ namespace Greed
             Raylib.SetTargetFPS(60);
 
             while (!Raylib.WindowShouldClose())
-            {
-                
+            {   
                 var RandomX = Random.Next(ScreenWidth);
                 var position = new Vector2(RandomX, 0);
 
